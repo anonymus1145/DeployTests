@@ -1,6 +1,6 @@
 const express = require("express");
 const morgan = require("morgan");
-require("dotenv").config();
+
 // @ts-check
 const app = express();
 app.use(express.static("dist"));
